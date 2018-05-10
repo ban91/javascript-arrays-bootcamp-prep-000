@@ -4,6 +4,7 @@ function addElementToBeginningOfArray(chocolateBars, b){
 return [b, ...chocolateBars];
 }
 
+<<<<<<< HEAD
 function destructivelyAddElementToBeginningOfArray(chocolateBars, b){
 chocolateBars.unshift(b);
 return chocolateBars
@@ -36,4 +37,8 @@ return chocolateBars
 
 function removeElementFromEndOfArray(chocolateBars){
 return chocolateBars.slice(0, chocolateBars.length - 1);
+=======
+function addElementToBeginningOfArray(chocolateBars, b){
+return [b, ...chocolateBars];
+>>>>>>> dac28cb40bb7a937fb044f919f48bddcae9b7623
 }
